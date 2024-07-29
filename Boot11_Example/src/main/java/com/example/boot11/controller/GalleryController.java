@@ -31,7 +31,7 @@ public class GalleryController {
 	
 	@PostMapping("/gallery/upload")
 	public String upload(GalleryDto dto) {
-		
+			
 		//String caption 과 MultipartFile image 가 들어 있는 GalleryDto 를 서비스에 전달해서 저장한다 
 		service.addToGallery(dto);
 		

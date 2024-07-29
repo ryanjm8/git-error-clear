@@ -37,8 +37,3 @@
 		WHERE num=#{num}
 	</select>	
 </mapper>
-
-
-
-
-
